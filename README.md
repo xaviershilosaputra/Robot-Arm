@@ -23,6 +23,9 @@ The robot arm must be able to achieve the following task:
 - Upscale the design to a larger size with nema stepper motors instead of servos for higher load capacity. 
 - Create several different size variants using multiple servo options such as the SG90/MG90S or the DS3135MG for lighter or heavier load handling.
 
+## Wiring
+> The Arduino UNO is connected to the PCA9685 PWM Servo Driver which will then be connected to each of the MG995 servo motor. There will be 1 servo for the base, 2 for lower-shoulder, 2 for upper-shoulder, 1 for gripper rotation, and another for the gripper claws. 
+
 ## Bill of Materials (BOM)
 
 | No. | Category            | Item                         | Qty | Est. Price (USD) | Description / Notes                                  | Link |
