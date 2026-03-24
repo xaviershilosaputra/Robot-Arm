@@ -24,7 +24,7 @@ The robot arm must be able to achieve the following task:
 - Create several different size variants using multiple servo options such as the SG90/MG90S or the DS3135MG for lighter or heavier load handling.
 
 ## Wiring
-> The Arduino UNO is connected to the PCA9685 PWM Servo Driver which will then be connected to each of the MG995 servo motor. There will be 1 servo for the base, 2 for lower-shoulder, 2 for upper-shoulder, 1 for gripper rotation, and another for the gripper claws. 
+> The Arduino UNO is connected to the PCA9685 PWM Servo Driver which will then be connected to each of the MG995 servo motor. There will be 1 servo for the base, 2 for lower-shoulder, 2 for upper-shoulder, 1 for wrist-yaw, 1 for wrist-roll, and another for the gripper claws open-close movement (Total 8 MG995 servos connected to the PCA9685). The main power source will be supplied by a power supply module that provides stable DC power to the system.
 
 ## Bill of Materials (BOM)
 
